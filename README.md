@@ -13,11 +13,11 @@ This app is created for my university project and it includes Huffman Tree code 
 
 ## Explanation for classes and methods
 This is a static class for nodes which also Overriding compareTo method for comparing nodes:
-'''java
-static class Node implements Comparable<Node> {}
-'''
+
+>static class Node implements Comparable<Node> {}
+
 
 This help us ...
-'''java
-static Node buildTree(int[] freq) {}
-'''
+
+>static Node buildTree(int[] freq) {}
+
