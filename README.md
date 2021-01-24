@@ -12,12 +12,12 @@ This app is created for my university project and it includes Huffman Tree code 
 [Watch Now](https://www.youtube.com/watch?v=HSuVtkdej8Q&t=245s)
 
 ## Explanation for classes and methods
-This is a static class for nodes which also Overriding compareTo method for comparing nodes:
+- This is a static class for nodes which also Overriding compareTo method for comparing nodes:
 
 >static class Node implements Comparable<Node> {}
 
 
-This help us ...
+- This help us ...
 
 >static Node buildTree(int[] freq) {}
 
