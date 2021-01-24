@@ -8,5 +8,16 @@ This app is created for my university project and it includes Huffman Tree code 
 - It uses Gson class in google library to work with Json.
 - Also it can decompress the cmp file and give you the recent text.
 
-Note: If you want to know how to add Gson library to your IDE, check this video on Youtube:
+**Note:** If you want to know how to add Gson library to your IDE, check this video on Youtube:
 [Watch Now](https://www.youtube.com/watch?v=HSuVtkdej8Q&t=245s)
+
+## Explanation for classes and methods
+This is a static class for nodes which also Overriding compareTo method for comparing nodes:
+'''java
+static class Node implements Comparable<Node> {}
+'''
+
+This help us ...
+'''java
+static Node buildTree(int[] freq) {}
+'''
