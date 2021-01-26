@@ -1,6 +1,6 @@
 # Making Huffman Tree with java and compress a text file
 ## Overview
-This app is created for my university project and it includes Huffman Tree code which help us to compress text files.
+This app is created for compressing and decompressing text and it includes Huffman Tree code which help us to compress text files.
  
 ## Features
 - This app get your text file address and compress it into a .cmp file.
