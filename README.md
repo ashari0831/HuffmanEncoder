@@ -17,7 +17,22 @@ This app is created for my university project and it includes Huffman Tree code 
 >static class Node implements Comparable<Node> {}
 
 
-- This help us ...
+- This help us arrange nodes in a increasing order
 
 >static Node buildTree(int[] freq) {}
 
+- This is for aski codes and characters
+
+> static int ALPHA_SIZE = 256;
+
+- this will encode the tree including chars and frequencies
+
+> public EncodedResult compress(String data) {}
+
+- this will decode the encoded data and give us the text
+
+> public String decompress(EncodedResult result) {}
+
+- it counts number of each char in the string
+
+> static int[] buildFrequencyTable(String data) {}
